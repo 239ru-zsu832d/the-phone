@@ -37,7 +37,7 @@ def sms():
         response.sms("https://image.ibb.co/iiLhtF/Jefe_Flyer_insta_size.png")
     
     else:
-        response.sms("are you Real JUAN?!")
+        response.sms("are you a Real JUAN?!")
     
     return str(response)
 
