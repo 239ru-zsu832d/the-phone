@@ -33,7 +33,7 @@ def sms():
         
     elif body == "Ain't Shit Free" or body == "ain'tshitfree" or body == "ain't shit free":
         response.sms("https://www.askforjuan.com/shop/")
-    elif body == "new show" or body == "New Show" or body == "newshow":
+    elif body == "next show" or body == "Next Show" or body == "nextshow":
         response.sms("https://image.ibb.co/iiLhtF/Jefe_Flyer_insta_size.png")
     
     else:
