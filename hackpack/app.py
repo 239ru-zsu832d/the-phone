@@ -28,7 +28,7 @@ def sms():
     response = twiml.Response()
     
     body = request.form['Body']
-    if body == "stayugly" or body == "stay ugly" or body == "Stay Ugly":
+    if body == "stayugly" or body == "stay ugly" or body == "Stay Ugly" or body == "Stay ugly":
         response.sms("https://www.askforjuan.com/")
         
     elif body == "Ain't Shit Free" or body == "ain'tshitfree" or body == "ain't shit free":
