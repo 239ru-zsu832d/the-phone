@@ -35,7 +35,7 @@ def sms():
         response.sms("https://www.askforjuan.com/shop/")
     elif body == "next show" or body == "Next Show" or body == "nextshow":
         response.sms("https://image.ibb.co/iiLhtF/Jefe_Flyer_insta_size.png")
-    elif body == "Caliph" or body == "caliph":
+    elif body == "Caliph" or body == "caliph" or body == "themood" or body == "Themood" or body == "mood" or body == "Mood":
         response.sms("https://www.askforjuan.com/themood/")
         
         
