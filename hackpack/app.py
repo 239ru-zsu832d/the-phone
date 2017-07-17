@@ -35,8 +35,10 @@ def sms():
         response.sms("https://www.askforjuan.com/shop/")
     elif body == "next show" or body == "Next Show" or body == "nextshow":
         response.sms("https://image.ibb.co/iiLhtF/Jefe_Flyer_insta_size.png")
-    elif body == "themood" or body == "Themood" or body == "mood":
-        response.sms("https://www.askforjuan.com/themood/")("Password is m00d")
+    elif body == "themood" or body == "Themood" or body == "mood" or body == "Mood":
+        response.sms("https://www.askforjuan.com/themood/")
+    elif body == "themood" or body == "Themood" or body == "mood" or body == "Mood":
+        response.sms("Password is m00d")
     
     else:
         response.sms("are you a Real JUAN?!")
