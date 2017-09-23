@@ -16,10 +16,10 @@ app.config.from_pyfile('local_settings.py')
 # Voice Request URL
 @app.route('/voice', methods=['GET', 'POST'])
 def voice():
-    """respond to incoming calls with Jefe Message"""
+    
     #start TWiML Response
     resp = VoiceResponse()
-    resp.say("Proper Finessements, Coming soon", voice = 'alice')
+    resp.say('Proper Finessements, Coming soon', voice = 'alice')
     return str(resp)
 
 
