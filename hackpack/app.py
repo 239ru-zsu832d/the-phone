@@ -19,9 +19,9 @@ app.config.from_pyfile('local_settings.py')
 def voice():
     
     #start TWiML Response
-    voiceResp = twiml.Response()
-    voiceResp.say("proper finessements coming soon", voice='alice')
-    return str(voiceResp)
+    response = twiml.Response()
+    response.say("hello world!", voice='alice')
+    return str(response)
 
 
 # SMS Request URL
