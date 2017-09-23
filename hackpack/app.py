@@ -6,7 +6,7 @@ from flask import url_for
 from flask import request
 
 from twilio import twiml
-from twilio.twiml.voice_response import VoiceResponse
+
 from twilio.util import TwilioCapability
 
 # Declare and configure application
@@ -19,7 +19,7 @@ app.config.from_pyfile('local_settings.py')
 def voice():
     
     #start TWiML Response
-    voiceResp = VoiceResponse()
+    voiceResp = twiml.Response()
     voiceResp.say("proper finessements coming soon", voice='alice'
     return str(voiceResp)
 
