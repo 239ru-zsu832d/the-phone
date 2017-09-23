@@ -20,7 +20,7 @@ def voice():
     
     #start TWiML Response
     response = twiml.Response()
-    response.say("hello world!", voice='alice')
+    response.say("proper finessements coming soon", voice='alice')
     return str(response)
 
 
