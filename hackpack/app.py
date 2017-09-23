@@ -1,4 +1,4 @@
-
+import re
 
 from flask import Flask
 from flask import render_template
@@ -19,9 +19,9 @@ app.config.from_pyfile('local_settings.py')
 def voice():
     
     #start TWiML Response
-    #voiceResp = VoiceResponse()
-    
-  # return str(voiceResp)
+    voiceResp = VoiceResponse()
+    voiceResp.say("proper finessements coming soon", voice='alice'
+    return str(voiceResp)
 
 
 # SMS Request URL
