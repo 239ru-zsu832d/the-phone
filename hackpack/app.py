@@ -20,7 +20,8 @@ def voice():
     
     #start TWiML Response
     resp = VoiceResponse()
-    resp.say('Proper Finessements, Coming soon', voice = 'alice')
+    
+    resp.say('Proper Finessements, Coming soon', voice='alice')
     return str(resp)
 
 
